@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: college-placement-system
+    runtime: python
+    plan: free
+    rootDir: placement_app
+    buildCommand: ./build.sh
+    startCommand: python manage.py migrate --noinput && python manage.py seed_demo && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: PLACEMENT_DEBUG
+        value: "0"
+      - key: PLACEMENT_SECRET_KEY
+        generateValue: true
+      - key: PLACEMENT_DB_PATH
+        value: /tmp/placement.sqlite3
