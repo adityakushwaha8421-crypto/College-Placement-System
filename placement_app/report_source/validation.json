@@ -1,0 +1,24 @@
+{
+  "pages": 41,
+  "words": 7757,
+  "student_name": "Tushar Lallu Kharwar",
+  "guide": "Mrs. M. D. Hindurao",
+  "academic_year": "2026-27",
+  "layout_reference": "CYBERSHIELD_BOBBY_VIJAY_SINGH.pdf",
+  "verified_chapter_page_numbers": {
+    "8": "CHAPTER 1",
+    "11": "CHAPTER 2",
+    "14": "CHAPTER 3",
+    "16": "CHAPTER 4",
+    "19": "CHAPTER 5",
+    "23": "CHAPTER 6",
+    "30": "CHAPTER 7",
+    "32": "CHAPTER 8",
+    "33": "CHAPTER 9",
+    "40": "CHAPTER 10",
+    "41": "REFERENCES"
+  },
+  "previous_project_or_name_leftovers": 0,
+  "text_outside_page_safe_bounds": 0,
+  "sha256": "baaf762ecf2b09ec6a1dae7515fa2977e57b9fa2494248bb15f1550c437d08ce"
+}

@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.sqlite3
+.local-secret
+placement_app/tmp/
+placement_app/output/
+placement_app/qa/artifacts/
+placement_app/private_uploads/
+placement_app/staticfiles/

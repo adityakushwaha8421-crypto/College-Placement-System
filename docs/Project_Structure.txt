@@ -1,0 +1,92 @@
+College Placement Management System - Recommended Folder Structure (Django)
+
+placement_system/
+│
+├── manage.py
+├── requirements.txt
+├── db.sqlite3                          # Auto-generated
+│
+├── placement_system/                   # Main project folder
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── accounts/                           # Authentication & Custom User
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py                        # Login, Registration forms
+│   ├── models.py                       # Custom User model with role
+│   ├── views.py
+│   ├── urls.py
+│   └── tests.py
+│
+├── students/
+│   ├── migrations/
+│   ├── models.py                       # Student profile model
+│   ├── forms.py
+│   ├── views.py                        # Student dashboard, profile, apply
+│   ├── urls.py
+│   └── admin.py
+│
+├── companies/
+│   ├── migrations/
+│   ├── models.py                       # Company profile model
+│   ├── forms.py
+│   ├── views.py                        # Company dashboard, post job
+│   ├── urls.py
+│   └── admin.py
+│
+├── jobs/
+│   ├── migrations/
+│   ├── models.py                       # Job model
+│   ├── forms.py
+│   ├── views.py                        # Job listing, details
+│   ├── urls.py
+│   └── admin.py
+│
+├── applications/
+│   ├── migrations/
+│   ├── models.py                       # Application + Interview models
+│   ├── forms.py
+│   ├── views.py                        # Apply, status update, shortlist
+│   ├── urls.py
+│   └── admin.py
+│
+├── templates/
+│   ├── base.html                       # Common layout with navbar
+│   ├── home.html
+│   ├── registration/
+│   │   ├── login.html
+│   │   ├── student_register.html
+│   │   └── company_register.html
+│   ├── admin/
+│   │   ├── dashboard.html
+│   │   ├── manage_students.html
+│   │   ├── manage_companies.html
+│   │   └── reports.html
+│   ├── student/
+│   │   ├── dashboard.html
+│   │   ├── profile.html
+│   │   ├── job_list.html
+│   │   ├── my_applications.html
+│   │   └── interview_schedule.html
+│   └── company/
+│       ├── dashboard.html
+│       ├── post_job.html
+│       ├── view_applications.html
+│       └── selected_candidates.html
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── charts.js                   # Chart.js code
+│   └── images/
+│
+└── media/                              # Uploaded resumes
+    └── resumes/
+```

@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Access restricted{% endblock %}{% block content %}<div class="empty-state panel"><svg><use href="#i-shield"/></svg><h1>This space belongs to another role.</h1><p>Your account doesn't have permission to take this action.</p><a class="button primary" href="{% url 'dashboard' %}">Back to your workspace</a></div>{% endblock %}

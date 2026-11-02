@@ -1,0 +1,20 @@
+{
+  "passed": 14,
+  "checks": [
+    "Recruiter creates opening pending review",
+    "Officer approves opening",
+    "Student registration awaits approval",
+    "Student applies and sees persisted application",
+    "Resume upload succeeds without resetting approval",
+    "Recruiter can download applicant resume",
+    "Recruiter schedules interview",
+    "Student sees interview and joining link",
+    "Student sees selection",
+    "Selection confirmation PDF downloads",
+    "Report includes newly selected student",
+    "CSV includes saved selection",
+    "Selection persists after signing out and back in",
+    "No E2E browser errors"
+  ],
+  "errors": []
+}

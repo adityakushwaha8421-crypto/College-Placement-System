@@ -1,0 +1,27 @@
+{
+  "passed": 22,
+  "checks": [
+    "Malformed job filter returns 200: ²",
+    "Malformed job filter yields empty scope",
+    "Malformed job filter returns 200: 99999999",
+    "Malformed job filter yields empty scope",
+    "Authenticated response prevents caching",
+    "Recruiter signup disables hidden academic fields",
+    "Student signup disables hidden company website",
+    "Collapsed mobile sidebar is inert",
+    "Expanded mobile sidebar is interactive",
+    "Opening menu moves keyboard focus into it",
+    "Escape closes menu and restores focus",
+    "Desktop sidebar becomes interactive after resize",
+    "Simultaneous duplicate applications both complete safely",
+    "Simultaneous apply creates exactly one visible application",
+    "Other application shortlisted",
+    "Concurrent interview reservations admit one request",
+    "Concurrent interview conflict returns a form error",
+    "Conflict response explains the student overlap",
+    "Only one concurrent meeting appears for student",
+    "Malformed meeting URL becomes validation feedback",
+    "Malformed meeting URL becomes validation feedback",
+    "Application status chips retain search and job scope"
+  ]
+}

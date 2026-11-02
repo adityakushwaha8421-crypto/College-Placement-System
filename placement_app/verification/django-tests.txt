@@ -1,0 +1,10 @@
+Creating test database for alias 'default'...
+...............Resume cleanup will be retried: resumes/2/4f6c418fcb4a4fabb7954e611276394e.pdf
+...............................
+----------------------------------------------------------------------
+Ran 46 tests in 4.836s
+
+OK
+Destroying test database for alias 'default'...
+Found 46 test(s).
+System check identified no issues (0 silenced).
